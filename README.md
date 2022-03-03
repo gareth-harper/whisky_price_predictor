@@ -108,7 +108,7 @@ Figure 5 shows the 200 most common words contained in the Description text (bott
 <kbd><img src="images/41 wordcloud_glass_series.png" width="300"  /></kbd>
 </p>
 
-<p align="bottom"><i><sub>Figure 5: Word clouds associate with text features.</sub></i></p>
+<p align="center"><i><sub>Figure 5: Word clouds associate with text features.</sub></i></p>
 
 ### 7.	Modelling
 The regression algorithms that I investigated fall broadly into three categories:
@@ -136,3 +136,36 @@ A summary of the models evaluated is presented in Table 1. Of the models evaluat
 | RandomForest | 0.73 | - |
 | RandomForest (w/ GS) | 0.73 | 519 |
 
+### 8.	Model Evaluation
+How do the actual and predicted prices compare? The average price from the testing dataset was £511, but only £454 for the predictions. On average, my model therefore under-predicts the price. Figure 6 shows the Actual vs Predicted prices for the first 20 whiskies to get a feel for the model performance. Generally, the prices compare well where the whisky price is relatively lower.
+
+<p align="center" width="100%">
+<kbd><img src="images/42 GB model first 20 predictions.png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 6: Actual vs Predicted Prices for the GradientBoosting regressor model.</sub></i></p>
+
+The feature importances for top 20 features are shown in Figure 7.
+The best features to predict whisky price were:
+1.	Age,
+2.	Vintage,
+3.	Certain distilleries,
+4.	Alcohol content, and
+5.	Sherry cask type
+
+<p align="center" width="100%">
+<kbd><img src="images/43 GB model feature importances.png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 7: Feature Importance for the GradientBoosting regressor model.</sub></i></p>
+
+I was able to determine the value of each whisky using the Value formula above. Figure 8 shows the value distribution plot of all whiskies. It is good to see my value distribution peaks around 1. This is a good indication that my predicted price compares well with the actual price, on average. The more spread out the values the worse the relationship between predicted and actual price.
+
+<p align="center" width="100%">
+<kbd><img src="images/44 value distribution plot.png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 8: Value Distribution with a mean of 1.16 and a standard deviation of 0.65.</sub></i></p>
+
+### 9.	Conclusion
+I was able to develop regression models that could predict the price of whisky and identify the most important features affecting the price. Using the value metric, I was also able to identify whiskies with the best value for money. I was therefore able to meet the objectives of this project.
