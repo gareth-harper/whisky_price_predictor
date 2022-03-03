@@ -1,7 +1,7 @@
 # Identifying Value For Money In The World Of Whisky!
 
 <p align="center" width="100%">
-  <img src="images/whisky_image.jpg" width="700">
+  <img src="images/whisky_image.png">
 </p>
 
 
