@@ -10,7 +10,7 @@ This capstone project was completed as part of the General Assembly Data Science
 ### 2.	Hypothesis
 My aim was to help whisky buyers make better informed decisions when purchasing whisky. Consider the following formula:
 
-<p align="center"">
+<p align="center" width="100%">
 <kbd><img src="images/value_equation.png" width="200"  /></kbd>
 </p>
 
@@ -68,3 +68,26 @@ It was important to understand the distribution of price as this was my intended
 <p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
 <br>
 
+Figure 1 shows that the majority of whisky prices are significantly less than the maximum value! I used a logarithmic transformation to make it uniformly distributed,
+
+Having transformed my target feature, I was able to move on to exploring my predictor features. Using Tableau, I was able to produce a plot showing the number of whiskies obtained. I was able to get whiskies from 17 different countries, although 90% were obtained from Scotland. Figure 2 therefore shows the distribution of whiskies excluding Scotland. The countries from which I obtained the most whiskies include Scotland, Ireland, Japan, England, USA and India.
+
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/20 CountbyCountry-World(exclScotland).png" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
+<br>
+
+Next, I investigated the relationship between some of the numeric features against price. Figure 3 shows the relationship between the selected numeric features and price. There is a somewhat linear relationship between the features and price. Generally, the older the whisky, and the longer it was been aged for, the higher the price. This makes sense as it is what we would expect.
+
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/22 Unit Price vs Vintage.png" width="250"  /></kbd>
+<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="250"  /></kbd>
+<kbd><img src="images/24 Unit Price vs Age).png" width="250"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
+<br>
