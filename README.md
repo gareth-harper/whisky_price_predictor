@@ -60,34 +60,31 @@ The EDA process provided valuable insight into the different features, and the r
 
 It was important to understand the distribution of price as this was my intended target variable in the predictive models to come. It was immediately clear that the prices in my data were not normally distributed and were highly skewed to the right. Even after removing outliers, my average whisky price was about £540, with a minimum price of £30 and a maximum price of £10,000. 
 
-<br>
 <p align="center" width="100%">
 <kbd><img src="images/07 Price Distribution.png" width="700"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
-<br>
 
 Figure 1 shows that the majority of whisky prices are significantly less than the maximum value! I used a logarithmic transformation to make it uniformly distributed,
 
 Having transformed my target feature, I was able to move on to exploring my predictor features. Using Tableau, I was able to produce a plot showing the number of whiskies obtained. I was able to get whiskies from 17 different countries, although 90% were obtained from Scotland. Figure 2 therefore shows the distribution of whiskies excluding Scotland. The countries from which I obtained the most whiskies include Scotland, Ireland, Japan, England, USA and India.
 
-<br>
 <p align="center" width="100%">
 <kbd><img src="images/20 CountbyCountry-World(exclScotland).png" width="700"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
-<br>
 
 Next, I investigated the relationship between some of the numeric features against price. Figure 3 shows the relationship between the selected numeric features and price. There is a somewhat linear relationship between the features and price. Generally, the older the whisky, and the longer it was been aged for, the higher the price. This makes sense as it is what we would expect.
 
-<br>
 <p align="center" width="100%">
 <kbd><img src="images/22 Unit Price vs Vintage.png" width="350"  /></kbd>
-<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
-<kbd><img src="images/24 Unit Price vs Age.png" width="350"  /></kbd>
 </p>
-
-<p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
-<br>
+<p align="center" width="100%">
+<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
+</p>
+<p align="center" width="100%">
+<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
+</p>
+<p align="center"><i><sub>Figure 3: Unit Price plotted against Vintage, Year Bottled, and Age.</sub></i></p>
