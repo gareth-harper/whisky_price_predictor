@@ -58,5 +58,11 @@ The EDA process provided valuable insight into the different features, and the r
 
 It was important to understand the distribution of price as this was my intended target variable in the predictive models to come. It was immediately clear that the prices in my data were not normally distributed and were highly skewed to the right. Even after removing outliers, my average whisky price was about £540, with a minimum price of £30 and a maximum price of £10,000. 
 
+<br>
+<p align="center" width="100%">
+<kbd><img src="images/07 Price Distribution.png" width="700"  /></kbd>
+</p>
 
+<p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
+<br>
 
