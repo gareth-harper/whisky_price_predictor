@@ -105,7 +105,34 @@ Figure 5 shows the 200 most common words contained in the Description text (bott
 
 <p align="center" width="100%">
 <kbd><img src="images/40 wordcloud_bottle_description.png" width="400"  /></kbd>
-<kbd><img src="images/41 wordcloud_glass_series.png" width="400"  /></kbd>
+<kbd><img src="images/41 wordcloud_glass_series.png" width="300"  /></kbd>
 </p>
 
-<p align="center"><i><sub>Figure 4: Average price plotted against several categorical features.</sub></i></p>
+<p align="center"><i><sub>Figure 5: Word clouds associate with text features.</sub></i></p>
+
+### 7.	Modelling
+The regression algorithms that I investigated fall broadly into three categories:
+* Linear models,
+* Nearest Neighbors, and
+* Tree-based models
+Initial results indicated that tree-based models were performing better, so these were investigated in more detail. I performed a gridsearch on GradientBoosting and RandomForest regression models in order to optimize the results. Gridsearch (GS) provides a method to tune hyperparameters, and thereby optimizes the model by determining the hyperparameters that result in the best model performance.
+
+A summary of the models evaluated is presented in Table 1. Of the models evaluated, GradientBoosting (w/ GS) had the highest R2-score and the lowest RMSE. GradientBoosting therefpre appears to have worked the best.
+
+<p align="center"><i><sub>Table 1: Summary of models constructed and their metrics.</sub></i></p>
+
+| Model | R2-Score | RMSE |
+| :- | :-: | :-: | 
+| RidgeCV | 0.71 | 596 |
+| LassoCV | 0.71 | 597 |
+| ElasticNetCV | 0.71 | 597 |
+| Linear Reg (10 Best Features) | 0.48 | - |
+| KNeighbors | 0.68 | - |
+| DecisionTree | 0.53 | - |
+| DecisionTree (w/ bagging) | 0.70 | - |
+| DecisionTree (w/ Adaboost) | 0.72 | - |
+| GradientBoosting | 0.65 | - |
+| GradientBoosting (w/ GS) | 0.74 | 480 |
+| RandomForest | 0.73 | - |
+| RandomForest (w/ GS) | 0.73 | 519 |
+
