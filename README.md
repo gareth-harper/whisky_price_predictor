@@ -14,8 +14,6 @@ My aim was to help whisky buyers make better informed decisions when purchasing 
 <kbd><img src="images/value_equation.png"/></kbd>
 </p>
 
-$$ Value = \frac{Predicted Price}{Actual Price} $$
-
 My hypotheses are therefore:
 * Can a regression model be developed to accurately predict the price of whisky given various features of the whisky such as age, vintage, country of origin, alcohol content etc.?
 * Can I identify whiskies that provide the best value for money?
