@@ -2,7 +2,6 @@
 <br>
 <p align="center" width="100%">
 <kbd><img src="images/whisky_image.jpg" width="700"  /></kbd>
-</p>
 
 <br>
 
