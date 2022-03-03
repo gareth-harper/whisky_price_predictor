@@ -61,7 +61,7 @@ The EDA process provided valuable insight into the different features, and the r
 It was important to understand the distribution of price as this was my intended target variable in the predictive models to come. It was immediately clear that the prices in my data were not normally distributed and were highly skewed to the right. Even after removing outliers, my average whisky price was about £540, with a minimum price of £30 and a maximum price of £10,000. 
 
 <p align="center" width="100%">
-<kbd><img src="images/07 Price Distribution.pdf" width="700"  /></kbd>
+<kbd><img src="images/07 Price Distribution.png" width="700"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
@@ -94,7 +94,7 @@ I also investigated the relationship between some of the categorical features ag
 Considering the binary features (Cask Strength, Single Cask and Bottler) there was a stronger effect on price if the whisky was cask strength or single cask. The similarity in the average price whether the whisky was bottled by the distillery or an independent bottler indicates this feature does not seem to have a significant impact on price.
 
 <p align="center" width="100%">
-<kbd><img src="images/26a select categorical columns by Average Unit Price.png" width="700"  /></kbd>
+<kbd><img src="images/26a select categorical columns by Average Unit Price.png" width="900"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 4: Average price plotted against several categorical features.</sub></i></p>
