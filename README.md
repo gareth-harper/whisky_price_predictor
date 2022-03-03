@@ -108,7 +108,7 @@ Figure 5 shows the 200 most common words contained in the Description text (bott
 <kbd><img src="images/41 wordcloud_glass_series.png" width="300"  /></kbd>
 </p>
 
-<p align="center"><i><sub>Figure 5: Word clouds associate with text features.</sub></i></p>
+<p align="bottom"><i><sub>Figure 5: Word clouds associate with text features.</sub></i></p>
 
 ### 7.	Modelling
 The regression algorithms that I investigated fall broadly into three categories:
