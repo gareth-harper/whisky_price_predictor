@@ -10,7 +10,7 @@ This capstone project was completed as part of the General Assembly Data Science
 ### 2.	Hypothesis
 My aim was to help whisky buyers make better informed decisions when purchasing whisky. Consider the following formula:
 
-<p align="center" width="100%">
+<p align="center"">
 <kbd><img src="images/value_equation.png" width="200"  /></kbd>
 </p>
 
