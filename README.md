@@ -61,7 +61,7 @@ The EDA process provided valuable insight into the different features, and the r
 It was important to understand the distribution of price as this was my intended target variable in the predictive models to come. It was immediately clear that the prices in my data were not normally distributed and were highly skewed to the right. Even after removing outliers, my average whisky price was about £540, with a minimum price of £30 and a maximum price of £10,000. 
 
 <p align="center" width="100%">
-<kbd><img src="images/07 Price Distribution.png" width="700"  /></kbd>
+<kbd><img src="images/07 Price Distribution.pdf" width="700"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
@@ -79,12 +79,22 @@ Having transformed my target feature, I was able to move on to exploring my pred
 Next, I investigated the relationship between some of the numeric features against price. Figure 3 shows the relationship between the selected numeric features and price. There is a somewhat linear relationship between the features and price. Generally, the older the whisky, and the longer it was been aged for, the higher the price. This makes sense as it is what we would expect.
 
 <p align="center" width="100%">
-<kbd><img src="images/22 Unit Price vs Vintage.png" width="350"  /></kbd>
+<kbd><img src="images/22 Unit Price vs Vintage.pdf" width="700"  /></kbd>
 </p>
 <p align="center" width="100%">
-<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
+<kbd><img src="images/23 Unit Price vs Year Bottled.pdf" width="700"  /></kbd>
 </p>
 <p align="center" width="100%">
-<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
+<kbd><img src="images/24 Unit Price vs Age.pdf" width="700"  /></kbd>
 </p>
 <p align="center"><i><sub>Figure 3: Unit Price plotted against Vintage, Year Bottled, and Age.</sub></i></p>
+
+I also investigated the relationship between some of the categorical features against average price to get an idea of how certain features could affect price. Figure 4 shows the relationship between selected categorical features and average price. 
+
+Considering the binary features (Cask Strength, Single Cask and Bottler) there was a stronger effect on price if the whisky was cask strength or single cask. The similarity in the average price whether the whisky was bottled by the distillery or an independent bottler indicates this feature does not seem to have a significant impact on price.
+
+<p align="center" width="100%">
+<kbd><img src="images/26a select categorical columns by Average Unit Price.pdf" width="700"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 4: Average price plotted against several categorical features.</sub></i></p>
