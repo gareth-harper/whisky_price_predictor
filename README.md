@@ -66,7 +66,7 @@ It was important to understand the distribution of price as this was my intended
 
 <p align="center"><i><sub>Figure 1: Histogram of whisky prices. Note that the distribution is not normal.</sub></i></p>
 
-Figure 1 shows that the majority of whisky prices are significantly less than the maximum value! I used a logarithmic transformation to make it uniformly distributed,
+Figure 1 shows that the majority of whisky prices are significantly less than the maximum value! I used a logarithmic transformation to make it uniformly distributed.
 
 Having transformed my target feature, I was able to move on to exploring my predictor features. Using Tableau, I was able to produce a plot showing the number of whiskies obtained. I was able to get whiskies from 17 different countries, although 90% were obtained from Scotland. Figure 2 therefore shows the distribution of whiskies excluding Scotland. The countries from which I obtained the most whiskies include Scotland, Ireland, Japan, England, USA and India.
 
@@ -95,6 +95,17 @@ Considering the binary features (Cask Strength, Single Cask and Bottler) there w
 
 <p align="center" width="100%">
 <kbd><img src="images/26a select categorical columns by Average Unit Price.png" width="900"  /></kbd>
+</p>
+
+<p align="center"><i><sub>Figure 4: Average price plotted against several categorical features.</sub></i></p>
+
+Finally, with detailed text information captured in both the Description and Series features, I hoped to gain insight through visualization of these text features using word clouds. I removed common stop words as well as common words related to whisky. This process proved to be an invaluable way to learn the language of whisky.
+
+Figure 5 shows the 200 most common words contained in the Description text (bottle) and the 100 most common words in the Series text (glass). While the series tends to use words such as “Single Cask”, “Single Malt”, Connoisseurs Choice”, and “Edition”, the description tends to use words associated with flavours or aromas such as “sweet”, “rich”, “vanilla, “spice”, and “smoke”.
+
+<p align="center" width="100%">
+<kbd><img src="images/40 wordcloud_bottle_description.png" width="400"  /></kbd>
+<kbd><img src="images/41 wordcloud_glass_series.png" width="400"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 4: Average price plotted against several categorical features.</sub></i></p>
