@@ -5,7 +5,7 @@
 </p>
 
 ### 1.	Overview
-This capstone project was completed as part of the General Assembly Data Science Immersive bootcamp. The purpose was to investigate the factors affecting whisky prices, to make predictions based on the data, and to identify opportunities following exploration and modeling of the data.
+This capstone project was completed as part of the General Assembly Data Science Immersive bootcamp. The purpose was to investigate the factors affecting whisky prices, to make predictions based on the data, and to identify opportunities following exploration and modelling of the data.
 
 ### 2.	Hypothesis
 My aim was to help whisky buyers make better informed decisions when purchasing whisky. Consider the following formula:
@@ -117,7 +117,7 @@ The regression algorithms that I investigated fall broadly into three categories
 * Tree-based models
 Initial results indicated that tree-based models were performing better, so these were investigated in more detail. I performed a gridsearch on GradientBoosting and RandomForest regression models in order to optimize the results. Gridsearch (GS) provides a method to tune hyperparameters, and thereby optimizes the model by determining the hyperparameters that result in the best model performance.
 
-A summary of the models evaluated is presented in Table 1. Of the models evaluated, GradientBoosting (w/ GS) had the highest R2-score and the lowest RMSE. GradientBoosting therefpre appears to have worked the best.
+A summary of the models evaluated is presented in Table 1. Of the models evaluated, GradientBoosting (w/ GS) had the highest R2-score and the lowest RMSE. GradientBoosting therefore appears to have worked the best.
 
 <p align="left"><i><sub>Table 1: Summary of models constructed and their metrics.</sub></i></p>
 
