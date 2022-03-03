@@ -10,6 +10,10 @@ This capstone project was completed as part of the General Assembly Data Science
 ### 2.	Hypothesis
 My aim was to help whisky buyers make better informed decisions when purchasing whisky. Consider the following formula:
 
+<p align="center" width="100%">
+<kbd><img src="images/value_equation.png"/></kbd>
+</p>
+
 $$ Value = \frac{Predicted Price}{Actual Price} $$
 
 My hypotheses are therefore:
