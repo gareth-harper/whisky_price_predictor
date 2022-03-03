@@ -84,9 +84,9 @@ Next, I investigated the relationship between some of the numeric features again
 
 <br>
 <p align="center" width="100%">
-<kbd><img src="images/22 Unit Price vs Vintage.png" width="250"  /></kbd>
-<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="250"  /></kbd>
-<kbd><img src="images/24 Unit Price vs Age).png" width="250"  /></kbd>
+<kbd><img src="images/22 Unit Price vs Vintage.png" width="350"  /></kbd>
+<kbd><img src="images/23 Unit Price vs Year Bottled.png" width="350"  /></kbd>
+<kbd><img src="images/24 Unit Price vs Age.png" width="350"  /></kbd>
 </p>
 
 <p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
