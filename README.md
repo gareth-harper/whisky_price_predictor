@@ -119,7 +119,7 @@ Initial results indicated that tree-based models were performing better, so thes
 
 A summary of the models evaluated is presented in Table 1. Of the models evaluated, GradientBoosting (w/ GS) had the highest R2-score and the lowest RMSE. GradientBoosting therefpre appears to have worked the best.
 
-<p align="center"><i><sub>Table 1: Summary of models constructed and their metrics.</sub></i></p>
+<p align="left"><i><sub>Table 1: Summary of models constructed and their metrics.</sub></i></p>
 
 | Model | R2-Score | RMSE |
 | :- | :-: | :-: | 
