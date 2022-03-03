@@ -1,11 +1,5 @@
 # Identifying Value For Money In The World Of Whisky!
-<br>
-<p align="center" width="100%">
-<kbd><img src="images/whisky_image.jpg" width="700"  /></kbd>
-</p>
-
-<p align="center"><i><sub>Salary Distribution of Data-Related Jobs. UK. January 2022.</sub></i></p>
-<br>
+<img src="images/whisky_image.jpg">
 
 
 
