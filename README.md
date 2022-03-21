@@ -76,7 +76,7 @@ Having transformed my target feature, I was able to move on to exploring my pred
 
 <p align="center"><i><sub>Figure 2: Whisky distribution across the world (excluding Scotland).</sub></i></p>
 
-Next, I investigated the relationship between some of the numeric features against price. Figure 3 shows the relationship between the selected numeric features and price. There is a somewhat linear relationship between the features and price. Generally, the older the whisky, and the longer it was been aged for, the higher the price. This makes sense as it is what we would expect.
+Next, I investigated the relationship between some of the numeric features against price. Figure 3 shows the relationship between the selected numeric features and price. There is a somewhat linear relationship between the features and price. Generally, the older the whisky, and the longer it was aged for, the higher the price. This makes sense as it is what we would expect.
 
 <p align="center" width="100%">
 <kbd><img src="images/22 Unit Price vs Vintage.png" width="700"  /></kbd>
