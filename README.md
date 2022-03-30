@@ -5,7 +5,7 @@
 </p>
 
 ### 1.	Overview
-This capstone project was completed as part of the General Assembly Data Science Immersive bootcamp. The purpose was to investigate the factors affecting whisky prices, to make predictions based on the data, and to identify opportunities following exploration and modelling of the data.
+This capstone project was completed as part of the General Assembly Data Science Immersive bootcamp. The purpose was to investigate the factors affecting whisky prices, to make predictions based on the data, and to identify opportunities following exploration and modeling of the data.
 
 ### 2.	Hypothesis
 My aim was to help whisky buyers make better informed decisions when purchasing whisky. Consider the following formula:
