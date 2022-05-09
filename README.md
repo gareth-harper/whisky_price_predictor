@@ -115,6 +115,7 @@ The regression algorithms that I investigated fall broadly into three categories
 * Linear models,
 * Nearest Neighbors, and
 * Tree-based models
+
 Initial results indicated that tree-based models were performing better, so these were investigated in more detail. I performed a gridsearch on GradientBoosting and RandomForest regression models in order to optimize the results. Gridsearch (GS) provides a method to tune hyperparameters, and thereby optimizes the model by determining the hyperparameters that result in the best model performance.
 
 A summary of the models evaluated is presented in Table 1. Of the models evaluated, GradientBoosting (w/ GS) had the highest R2-score and the lowest RMSE. GradientBoosting therefore appears to have worked the best.
