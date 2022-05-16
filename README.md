@@ -152,7 +152,7 @@ The best features to predict whisky price were:
 2.	Vintage,
 3.	Certain distilleries,
 4.	Alcohol content, and
-5.	Sherry cask type
+5.	Packaging
 
 <p align="center" width="100%">
 <kbd><img src="images/43 GB model feature importances.png" width="700"  /></kbd>
